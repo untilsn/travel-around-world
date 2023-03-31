@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1024px) {
+  .about__bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    padding-left: 60px;
+  }
+  .swiper .slider__img-second {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .about .about__box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    place-items: center;
+  }
+  .about .about__container {
+    margin-top: 20px;
+  }
+  .swiper-wrappe .swiper-slide .slider__box {
+    max-height: 100vh;
+    object-fit: cover;
+    width: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .packages .container .packages__container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 0 40px;
+  }
+  .offer .offer__container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 0 40px;
+  }
+  .footer .container {
+    padding: 0 40px;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    padding-left: 0;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    display: flex;
+    justify-content: center;
+  }
+  .container .about__bottom-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* ipad */
+
+@media only screen and (max-width: 768px) {
+  .header__right .header__navigation {
+    display: none;
+  }
+  .header__btn .header__btn-bar {
+    display: block;
+  }
+  .swiper-wrappe .swiper-slide .slider__box {
+    max-height: 100vh;
+    object-fit: cover;
+    max-width: 768px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-slide .slider__img-three {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .container .about__bottom-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe__container {
+    padding: 0 20px;
+  }
+  .blogs__cart {
+    padding: 0 10px;
+  }
+.footer {
+  max-width: 1200px;
+}
+}
+@media only screen 
+  and (max-width: 414px) 
+{ 
+  .swiper  .swiper-slide .slider__box {
+    max-height: 100vh;
+    object-fit: cover;
+    max-width: 414px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
